@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap');
+.main-navbar {
+	background-color: #f0ede4;
+	border: none;
+}
+.main-navbar .navbar-collapse .navbar-nav .nav-option {
+	color: #1a1b1a;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.main-navbar .nav-logo {
+	color: #1a1b1a;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	border: 2px solid #d65151;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.main-navbar .navbar-collapse .navbar-nav .nav-option:hover {
+	color: #d65151;
+}
+.titulo-texto {
+	color: #1a1b1a;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+}
+.subtitulo-texto {
+	color: #d65151;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.descripcion-texto {
+	color: #1A1B1A;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*Acerca de mi */
+.acerca-seccion {
+	height: 450px;
+	background-color: #f0ede4;
+	display: flex;
+	align-items: center;
+}
+.acerca-seccion .photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.acerca-seccion .photo img {
+	height: 350px;
+}
+.btn-descargar {
+	color: #1A1B1A;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 1px solid #1A1B1A;
+	padding: 6px 15px;
+}
+.btn-descargar:hover,
+.btn-descargar:focus {
+	color: #fff;
+	background-color: #1a1b1a;
+	text-decoration: none;
+}
+
+/*Habilidades*/
+.habilidades-seccion {
+	background-color: #f0ede4;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.habilidades-card {
+	background-color: #f0ede4;
+	/*box-shadow: 0px 1px 8px rgb(0 0 0 / 14%), 0px 3px 8px rgb(0 0 0 / 11%);*/
+	height: 250px;
+	padding: 8%;
+}
+.habilidades-card .titulo {
+	color: #d65151;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;	
+}
+.habilidades-list {
+	color: #1a1b1a;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.habilidades-list li {
+	list-style: none;
+}
+
+/*Portafolio*/
+.portafolio-seccion {
+	background-color: #f0ede4;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.portafolio-card {
+	background-color: #ffffff;
+	margin-bottom: 6%;
+}
+.portafolio-img img {
+	width: 100%;
+	height: 230px;
+}
+.portafolio-body {
+	height: 250px;
+	padding: 6%;
+}
+.portafolio-card .btn-grupo {
+	position: absolute;
+	bottom: 9%;
+}
+.btn-ver-mas {
+	color: #d65151;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 1px solid #d65151;
+	padding: 6px 15px;
+}
+.btn-ver-mas:hover,
+.btn-ver-mas:focus {
+	color: #fff;
+	background-color: #d65151;
+	text-decoration: none;
+}
+.btn-github {
+	color: #1A1B1A;
+	background-color: transparent;
+	border-radius: 50px;
+	border: 1px solid #1A1B1A;
+	padding: 6px 15px;
+}
+.btn-github:hover,
+.btn-github:focus {
+	color: #fff;
+	background-color: #1a1b1a;
+	text-decoration: none;
+}
+.portafolio-card .titulo {
+	color: #1A1B1A;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.portafolio-card .descripcion {
+	color: #1A1B1A;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*Contacto*/
+.contacto {
+	background-color: #f0ede4;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.contacto-card {
+	background-color: #ffffff;
+	padding: 5%;
+	text-align: center;
+	margin-bottom: 6%;
+}
+.contacto-card .titulo {
+	color: #d65151;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.contacto-card .descripcion {
+	color: #1A1B1A;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+	cursor: pointer;
+}

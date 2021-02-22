@@ -184,3 +184,13 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+/*MEDIA QUERIS*/ 
+@media (max-width: 767px) {
+	.acerca-seccion {
+		height: auto;
+	}
+	.habilidades-card {
+		height: auto;
+	}
+}
